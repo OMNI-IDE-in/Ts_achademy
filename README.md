@@ -1,4 +1,9 @@
 <div align="center">
+  <img src="https://via.placeholder.com/1200x400.png?text=TS+Global+Academy+Banner" alt="TS Global Academy Banner" width="100%" />
+
+  <br />
+  <br />
+
   <h1>🎓 TS Global Academy</h1>
   <p><strong>Empowering Future Leaders with Next-Gen Education</strong></p>
   
@@ -13,17 +18,54 @@
 
 ---
 
+## 📑 Table of Contents
+
+- [Project Description](#-project-description)
+- [Live Demo](#-live-demo)
+- [Project Goals](#-project-goals)
+- [Features](#-features)
+- [Courses Offered](#-courses-offered)
+- [Screenshots](#-screenshots)
+- [Design Philosophy](#-design-philosophy)
+- [Performance & Optimization](#-performance--optimization)
+- [Technology Stack](#-technology-stack)
+- [Folder Structure](#-folder-structure)
+- [Installation](#-installation)
+- [Website Sections](#-website-sections)
+- [Future Enhancements](#-future-enhancements)
+- [Developed By](#-developed-by)
+- [License](#-license)
+
+---
+
 ## 📖 Project Description
 
-**TS Global Academy** is a modern educational institute website designed to showcase diploma programs, professional certifications, and admission information. The website is inspired by premium EdTech platforms, featuring a clean light theme, smooth animations, responsive layouts, and a modern user interface. 
+**TS Global Academy** is a modern educational institute website designed to showcase diploma programs, professional certifications, and admission information. Inspired by premium EdTech platforms, it features a clean light theme, smooth animations, responsive layouts, and a modern user interface. 
 
-This is a **frontend-only** project built to provide an exceptional user experience for prospective students.
+This is a **frontend-only** project built to provide an exceptional and engaging user experience for prospective students.
+
+---
+
+## 🌐 Live Demo
+
+> **Status:** Coming Soon 🚀
+> 
+> The live deployment link will be updated here once the project is hosted.
+
+---
+
+## 🎯 Project Goals
+
+- **Provide a Premium Experience:** Deliver a high-end, responsive UI that instills trust and professionalism.
+- **Showcase Academic Offerings:** Clearly present the wide array of diploma programs and certifications available.
+- **Drive Enrollments:** Create an intuitive user journey from landing page to admission inquiry.
+- **Modern Standards:** Build a robust, scalable frontend using the latest React ecosystem tools.
 
 ---
 
 ## ✨ Features
 
-- 📱 **Responsive Design** - Flawless experience across all devices.
+- 📱 **Responsive Design** - Flawless experience across all devices (Desktop, Tablet, Mobile).
 - 🎨 **Modern UI** - Clean, intuitive, and premium aesthetics.
 - 🚀 **Premium Landing Page** - Engaging first impression for visitors.
 - 📚 **Course Showcase** - Detailed presentation of all available programs.
@@ -32,7 +74,6 @@ This is a **frontend-only** project built to provide an exceptional user experie
 - ❓ **FAQ** - Comprehensive answers to common queries.
 - 🎬 **Smooth Animations** - Fluid transitions powered by Framer Motion.
 - ☀️ **Light Theme** - Bright and professional color palette.
-- 📱 **Mobile Friendly** - Optimized for touch interactions and small screens.
 
 ---
 
@@ -50,6 +91,32 @@ This is a **frontend-only** project built to provide an exceptional user experie
 ### 🏆 Professional Certifications
 - 🧠 Master Certification in Generative AI & Applications
 - ⚙️ Advanced Certification in AI & Machine Learning
+
+---
+
+## 📸 Screenshots
+
+| Home Page | Courses Page | Contact Page |
+| :---: | :---: | :---: |
+| <img src="https://via.placeholder.com/400x300.png?text=Home+Page" alt="Home Page" width="100%"/> | <img src="https://via.placeholder.com/400x300.png?text=Courses+Page" alt="Courses Page" width="100%"/> | <img src="https://via.placeholder.com/400x300.png?text=Contact+Page" alt="Contact Page" width="100%"/> |
+
+---
+
+## 🖌️ Design Philosophy
+
+The design of TS Global Academy is rooted in **Clarity, Trust, and Engagement**:
+- **Clarity:** Utilizing ample whitespace and a clean light theme to make content easily digestible.
+- **Trust:** Incorporating professional typography, consistent styling, and high-quality visuals to establish credibility.
+- **Engagement:** Implementing subtle micro-interactions and scroll animations with Framer Motion to keep users engaged without overwhelming them.
+
+---
+
+## ⚡ Performance & Optimization
+
+- **Vite Bundling:** Lightning-fast HMR and optimized production builds.
+- **Lazy Loading:** React components are dynamically loaded to reduce initial bundle size.
+- **Optimized Assets:** Images and SVGs are compressed for faster rendering.
+- **Tailwind JIT:** Utility classes are generated on-demand, ensuring a minimal CSS footprint.
 
 ---
 
@@ -130,15 +197,6 @@ To get a local copy up and running, follow these simple steps:
 
 ---
 
-## 📱 Responsive Design
-
-The platform is fully optimized for a seamless experience across all device categories:
-- 💻 **Desktop** - Expansive layouts utilizing full screen real estate.
-- 💊 **Tablet** - Adaptive grids for medium-sized displays.
-- 📱 **Mobile** - Streamlined, touch-friendly navigation for smartphones.
-
----
-
 ## 🔮 Future Enhancements
 
 - [ ] 🎓 **Student Portal** - Dedicated dashboard for enrolled students.
@@ -153,7 +211,9 @@ The platform is fully optimized for a seamless experience across all device cate
 
 ## 👨‍💻 Developed By
 
-Built with ❤️ by **OMNI-IDE**.
+**OMNI-IDE**  
+*Building scalable, modern, and high-performance digital solutions.*  
+[Visit our Organization](https://github.com/OMNI-IDE-in)
 
 ---
 
