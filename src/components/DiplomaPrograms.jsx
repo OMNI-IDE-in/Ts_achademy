@@ -13,7 +13,7 @@ export default function DiplomaPrograms({ onOpenApplyModal }) {
     "aiml": {
       name: "Mohammed Nihan",
       title: "Director & Executive Director, Artificial Intelligence — Founder & CEO of Omni IDE Software Company",
-      photo: "/nihan-faculty.jpeg",
+      photo: "/mohammed-nihan-founder-omni-ide-ts-global-academy-executive-director.jpeg",
       department: "School of Artificial Intelligence",
       mode: "On-Campus & Cloud GPU Access",
       certification: "International Diploma in Applied AI",
@@ -22,7 +22,7 @@ export default function DiplomaPrograms({ onOpenApplyModal }) {
     "peng": {
       name: "Mohammed Nihan",
       title: "Director & Executive Director, Artificial Intelligence — Founder & CEO of Omni IDE Software Company",
-      photo: "/nihan-faculty.jpeg",
+      photo: "/mohammed-nihan-founder-omni-ide-ts-global-academy-executive-director.jpeg",
       department: "School of Cognitive Computation",
       mode: "Intensive Studio & Remote Deployment",
       certification: "International Diploma in Prompt Engineering",
@@ -152,7 +152,8 @@ export default function DiplomaPrograms({ onOpenApplyModal }) {
                     <div className="md:col-span-3 flex items-start gap-3">
                       <img
                         src={chair.photo}
-                        alt={chair.name}
+                        alt={chair.name + " - TS Global Academy"}
+                        title={chair.name + " - Faculty Chair"}
                         className="w-10 h-10 rounded-full object-cover border border-slate-200 shadow-sm shrink-0"
                       />
                       <div className="space-y-0.5">

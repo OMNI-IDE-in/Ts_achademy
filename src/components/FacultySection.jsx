@@ -8,7 +8,7 @@ export default function FacultySection() {
       company: "Founder & CEO of Omni IDE Software Company",
       companyLink: "https://omniide.com/",
       credentials: "Founder & CEO, Omni IDE Software Company · Lead AI Architect & Executive Director",
-      photo: "/nihan-faculty.jpeg",
+      photo: "/mohammed-nihan-founder-omni-ide-ts-global-academy-executive-director.jpeg",
       research: "Autonomous AI Systems, LLM Orchestration, Enterprise Developer Platforms",
       publications: "Architect of Omni IDE Core Engine and TS Global Academy Applied AI Curriculum",
     },
@@ -87,7 +87,8 @@ export default function FacultySection() {
               <div className="h-72 w-full overflow-hidden relative border-b border-[#E5E7EB]">
                 <img
                   src={faculty.photo}
-                  alt={faculty.name}
+                  alt={faculty.name + " - " + faculty.title}
+                  title={faculty.name + " - TS Global Academy"}
                   className="w-full h-full object-cover object-top filter grayscale-[20%] hover:grayscale-0 transition-all duration-500"
                 />
               </div>

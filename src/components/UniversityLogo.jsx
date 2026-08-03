@@ -58,8 +58,9 @@ export default function UniversityLogo({
       ======================================================== */}
       <div className={`${currentImageSize} relative shrink-0 flex items-center justify-center`}>
         <img
-          src="/ts-logo.png"
-          alt="TS Global Academy University Crest"
+          src="/ts-global-academy-official-logo.png"
+          alt="TS Global Academy - International Institute of Applied Sciences Official University Crest"
+          title="TS Global Academy Official Logo"
           className="w-full h-full object-contain filter drop-shadow-sm group-hover:scale-105 transition-transform duration-300"
         />
       </div>
