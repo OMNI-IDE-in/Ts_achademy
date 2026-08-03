@@ -3,35 +3,53 @@
 @tailwind utilities;
 
 @layer base {
-  html {
+  html, body {
     scroll-behavior: smooth;
-    background-color: #F8FAFC;
+    background-color: #FFFFFF;
     color: #0F172A;
     font-family: 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Sora', system-ui, sans-serif;
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.015em;
   }
 
-  /* Focus outline style */
+  /* Focus outline style for accessibility & keyboard navigation */
   :focus-visible {
-    outline: 2px solid #F97316;
+    outline: 2px solid #B8860B;
     outline-offset: 2px;
   }
+
+  ::selection {
+    background-color: #0F172A;
+    color: #FFFFFF;
+  }
 }
 
-/* Custom scrollbar */
+/* Ensure images and SVGs never overflow viewport on mobile screens */
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  max-width: 100%;
+}
+
+/* Custom editorial light-theme scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #F8FAFC;
+  background: #F3F4F6;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2563EB;
+  background: #CBD5E1;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #F97316;
+  background: #B8860B;
 }

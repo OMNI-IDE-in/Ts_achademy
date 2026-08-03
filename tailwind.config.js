@@ -8,29 +8,38 @@ export default {
     extend: {
       colors: {
         navy: {
+          950: '#090E1A',
           900: '#0F172A',
           800: '#1E293B',
           700: '#334155',
+          DEFAULT: '#0F172A',
         },
-        brandBlue: {
+        deepBlue: {
           900: '#1E3A8A',
           800: '#1E40AF',
           600: '#2563EB',
           500: '#3B82F6',
           400: '#60A5FA',
+          DEFAULT: '#1E3A8A',
         },
-        orangeCTA: {
-          500: '#F97316',
-          600: '#EA580C',
-          700: '#C2410C',
+        gold: {
+          400: '#D4A017',
+          500: '#B8860B',
+          600: '#9A7109',
+          700: '#785707',
+          DEFAULT: '#B8860B',
         },
-        bgLight: '#F8FAFC',
+        academicGold: '#B8860B',
+        offWhite: '#FAFAF8',
+        lightGray: '#F3F4F6',
+        borderGray: '#E5E7EB',
+        bgLight: '#FAFAF8',
         cardBg: '#FFFFFF',
       },
       fontFamily: {
-        heading: ['Sora', 'system-ui', 'sans-serif'],
+        heading: ['"Playfair Display"', 'Georgia', 'serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
-        mono: ['"IBM Plex Mono"', 'Courier New', 'monospace'],
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
       },
     },
   },

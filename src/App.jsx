@@ -1,37 +1,75 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import DiplomaPrograms from './components/DiplomaPrograms';
+import FacultySection from './components/FacultySection';
+import CampusSection from './components/CampusSection';
 import CurriculumRoadmap from './components/CurriculumRoadmap';
+import PlacementSection from './components/PlacementSection';
 import WhyTSGlobal from './components/WhyTSGlobal';
+import TestimonialsSection from './components/TestimonialsSection';
 import FAQSection from './components/FAQSection';
 import Footer from './components/Footer';
+import ApplicationModal from './components/ApplicationModal';
 
 export default function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalCourseId, setModalCourseId] = useState('aiml');
+
+  const openApplyModal = (courseId = 'aiml') => {
+    // If an event object is passed by mistake (e.g. from onClick without args), default to 'aiml'
+    const targetCourse = typeof courseId === 'string' ? courseId : 'aiml';
+    setModalCourseId(targetCourse);
+    setIsModalOpen(true);
+  };
+
+  const closeApplyModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
-    <div className="min-h-screen bg-paper text-body font-sans selection:bg-indigo selection:text-paper flex flex-col">
-      {/* 1. Sticky Navigation */}
-      <Navbar />
+    <div className="min-h-screen bg-white text-[#0F172A] font-sans selection:bg-[#B8860B] selection:text-white flex flex-col">
+      {/* Official Institutional Header */}
+      <Navbar onOpenApplyModal={openApplyModal} />
 
       <main className="flex-grow">
-        {/* 2. Hero Section */}
-        <HeroSection />
+        {/* Prestigious Campus Hero + 6-Card Trust Section */}
+        <HeroSection onOpenApplyModal={openApplyModal} />
 
-        {/* 3. Courses Grid (7 Programmes) */}
-        <DiplomaPrograms />
+        {/* Specialized University Diploma Catalog */}
+        <DiplomaPrograms onOpenApplyModal={openApplyModal} />
 
-        {/* 4. Curriculum Deep-Dive (Flagship Accordions) */}
+        {/* Distinguished Faculty & Research Fellows */}
+        <FacultySection />
+
+        {/* Campus Infrastructure & Applied Laboratories */}
+        <CampusSection />
+
+        {/* Academic Progression & Evaluation Gates */}
         <CurriculumRoadmap />
 
-        {/* 5. Why TS Global Academy (3 Pillars) */}
+        {/* Corporate Placement & Enterprise Partnerships */}
+        <PlacementSection />
+
+        {/* Institutional Philosophy & Academic Pillars */}
         <WhyTSGlobal />
 
-        {/* 6. FAQ Accordion */}
+        {/* Scholarly Testimonies & Student Stories */}
+        <TestimonialsSection />
+
+        {/* Registrar & Admissions FAQ */}
         <FAQSection />
       </main>
 
-      {/* 7. Dark Indigo Footer */}
+      {/* Deep Navy University Footer */}
       <Footer />
+
+      {/* Global Interactive Application Modal */}
+      <ApplicationModal 
+        isOpen={isModalOpen} 
+        onClose={closeApplyModal} 
+        initialCourseId={modalCourseId} 
+      />
     </div>
   );
 }

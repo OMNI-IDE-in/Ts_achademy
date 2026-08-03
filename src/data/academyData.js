@@ -191,6 +191,32 @@ export const DIPLOMA_COURSES = [
     ],
     topicsCovered: ["SQL Data Wrangling", "Statistical Testing", "Predictive Analytics", "Business Intelligence", "Time-Series Forecasting"],
     toolsCovered: ["Python", "PostgreSQL", "Pandas", "Power BI", "Tableau", "Jupyter", "Git"]
+  },
+  {
+    id: "csec",
+    code: "TSGA·CSEC",
+    title: "Diploma in Cyber Security Architecture",
+    duration: "6 Months",
+    blurb: "Advanced enterprise defensive architecture, zero-trust network security, ethical penetration testing, cryptography, and ISO 27001/NIST security compliance.",
+    whatsappMessage: "Hello TS Global Academy, I am inquiring about the Diploma in Cyber Security Architecture (TSGA·CSEC).",
+    fee: "To be confirmed",
+    eligibility: "Engineering or IT students, network administrators, or technical professionals aiming to master enterprise cybersecurity and security operations.",
+    levels: [
+      {
+        level: "Level 1: Network Defense & Applied Cryptography",
+        topics: ["TCP/IP Security, Firewalls & IDS/IPS Architecture", "Symmetric & Asymmetric Cryptography (PKI/OpenSSL)", "Network Protocol Analysis with Wireshark & Nmap"]
+      },
+      {
+        level: "Level 2: Ethical Penetration Testing & Vulnerability Assessment",
+        topics: ["OWASP Top 10 Web Application Security Exploitation", "Network Penetration Testing with Kali Linux & Metasploit", "Red Team Tactics, Social Engineering & Exploit Mitigation"]
+      },
+      {
+        level: "Level 3: Zero-Trust Architecture & SOC SIEM Operations",
+        topics: ["Zero-Trust Network Access (ZTNA) Enterprise Design", "SIEM Log Analysis & Threat Hunting with Splunk", "ISO 27001, NIST Compliance & Security Incident Response"]
+      }
+    ],
+    topicsCovered: ["Zero-Trust Architecture", "Penetration Testing", "Threat Intelligence", "SIEM & SOC Operations", "NIST & ISO 27001 Compliance"],
+    toolsCovered: ["Wireshark", "Burp Suite", "Kali Linux", "Metasploit", "Splunk SIEM", "Nmap", "OpenSSL"]
   }
 ];
 
