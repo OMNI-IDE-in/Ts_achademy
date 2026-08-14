@@ -66,7 +66,7 @@ export default function DiplomaPrograms({ onOpenApplyModal }) {
     },
     "dgmk": {
       name: "KP Mohammed Rifadh",
-      title: "ACCA | B.Com (International Finance & Accounting) — Chair of Digital Growth",
+      title: "Director, TS Global Academy — Chair of Digital Growth",
       photo: "/kp-mohammed-rifadh.jpg",
       department: "School of Digital Business & Strategy",
       mode: "Hybrid Brand Marketing Studio",
@@ -75,7 +75,7 @@ export default function DiplomaPrograms({ onOpenApplyModal }) {
     },
     "dsci": {
       name: "KP Mohammed Rifadh",
-      title: "ACCA | B.Com (International Finance & Accounting) — Chair of Data Systems",
+      title: "Director, TS Global Academy — Chair of Data Systems",
       photo: "/kp-mohammed-rifadh.jpg",
       department: "School of Data Science & Analytics",
       mode: "On-Campus Statistical Computing Lab",

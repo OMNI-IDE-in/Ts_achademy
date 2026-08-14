@@ -50,6 +50,15 @@ export default function FacultySection() {
     },
     {
       name: "KP Mohammed Rifadh",
+      title: "Director, TS Global Academy",
+      company: "Chair of Strategic Growth, Marketing & Data",
+      credentials: "Director of Institute · Principal Analytics Architect",
+      photo: "/kp-mohammed-rifadh.jpg",
+      research: "High-Dimensional Data Systems, Predictive Conversion Models",
+      publications: "Director of International Admissions and Enterprise Analytics",
+    },
+    {
+      name: "KP Mohammed Rifadh",
       title: "ACCA | B.Com (International Finance & Accounting)",
       company: "Deloitte USI — Exposure to audit engagements, financial reporting, and professional accounting practices.",
       credentials: "ACCA Affiliate with a strong foundation in International Financial Reporting Standards (IFRS), financial analysis, and global accounting practices. Passionate about simplifying complex financial concepts through practical, industry-focused learning that prepares students for today’s evolving finance profession.",
