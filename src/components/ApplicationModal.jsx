@@ -24,8 +24,8 @@ export default function ApplicationModal({ isOpen, onClose, initialCourseId = 'a
     { id: 'gst', name: 'Diploma in GST & Taxation', chair: 'Dr. Salman Raza — CEO, TS Global Academy (Statutory Compliance)' },
     { id: 'arch', name: 'Diploma in Architecture', chair: 'Director Ruman — Chair of Architectural Engineering & BIM' },
     { id: 'robo', name: 'Diploma in Robotics', chair: 'Director Siyad — Chair of Autonomous Robotics & Mechatronics' },
-    { id: 'dgmk', name: 'Diploma in Digital Marketing', chair: 'Director Rifadh — Chair of Digital Growth & Media' },
-    { id: 'dsci', name: 'Diploma in Data Science', chair: 'Director Rifadh — Chair of Data Systems & Analytics' },
+    { id: 'dgmk', name: 'Diploma in Digital Marketing', chair: 'KP Mohammed Rifadh — Chair of Digital Growth & Media' },
+    { id: 'dsci', name: 'Diploma in Data Science', chair: 'KP Mohammed Rifadh — Chair of Data Systems & Analytics' },
   ];
 
   const currentCourseObj = courses.find((c) => c.id === selectedCourse) || courses[0];

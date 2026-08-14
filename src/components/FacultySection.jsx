@@ -49,15 +49,6 @@ export default function FacultySection() {
       publications: "Director of Technology Transfer and Hardware Incubation",
     },
     {
-      name: "Director Rifadh",
-      title: "Director, TS Global Academy",
-      company: "Chair of Strategic Growth, Marketing & Data",
-      credentials: "Director of Institute · Principal Analytics Architect",
-      photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80",
-      research: "High-Dimensional Data Systems, Predictive Conversion Models",
-      publications: "Director of International Admissions and Enterprise Analytics",
-    },
-    {
       name: "KP Mohammed Rifadh",
       title: "ACCA | B.Com (International Finance & Accounting)",
       company: "Deloitte USI",
