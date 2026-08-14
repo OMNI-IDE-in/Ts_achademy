@@ -51,8 +51,8 @@ export default function FacultySection() {
     {
       name: "KP Mohammed Rifadh",
       title: "ACCA | B.Com (International Finance & Accounting)",
-      company: "Deloitte USI",
-      credentials: "ACCA Affiliate with a strong foundation in International Financial Reporting Standards (IFRS), financial analysis, and global accounting practices. Passionate about simplifying complex financial concepts.",
+      company: "Deloitte USI — Exposure to audit engagements, financial reporting, and professional accounting practices.",
+      credentials: "ACCA Affiliate with a strong foundation in International Financial Reporting Standards (IFRS), financial analysis, and global accounting practices. Passionate about simplifying complex financial concepts through practical, industry-focused learning that prepares students for today’s evolving finance profession.",
       photo: "/kp-mohammed-rifadh.jpg",
       research: "International Financial Reporting (IFRS) • Financial Statement Analysis • Corporate Finance • Accounting Standards • Professional Development",
       publications: "Committed to developing globally relevant finance professionals through practical education, real-world case studies, and internationally recognized accounting principles.",
