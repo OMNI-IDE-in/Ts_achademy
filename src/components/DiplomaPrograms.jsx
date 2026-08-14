@@ -40,16 +40,16 @@ export default function DiplomaPrograms({ onOpenApplyModal }) {
     "gst": {
       name: "Dr. Salman Raza",
       title: "CEO, TS Global Academy — Chair of Statutory Tax Compliance",
-      photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      photo: "/dr-salman-raza.jpg",
       department: "School of Fiscal Compliance & Accounting",
       mode: "On-Campus Financial Systems Lab",
       certification: "Accredited Diploma in Taxation & Statutory Compliance",
       outcomes: "Senior GST Compliance Architect, Statutory Audit Lead, Enterprise Payroll Strategist",
     },
     "arch": {
-      name: "Director Ruman",
-      title: "Director, TS Global Academy — Chair of Architectural Engineering",
-      photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      name: "MOHAMMED RUMAN ALI",
+      title: "Architectural Visualizer (Real Estate) — Lead Instructor",
+      photo: "/mohammed-ruman-ali.jpg",
       department: "School of Building Information Modeling",
       mode: "On-Campus BIM Studio & Hybrid Drafting",
       certification: "International Diploma in Architectural Technologies",
@@ -81,6 +81,15 @@ export default function DiplomaPrograms({ onOpenApplyModal }) {
       mode: "On-Campus Statistical Computing Lab",
       certification: "International Diploma in Big Data Systems",
       outcomes: "Senior Data Science Manager, Enterprise Analytics Architect, Business Intelligence Lead",
+    },
+    "ifrs": {
+      name: "KP Mohammed Rifadh",
+      title: "ACCA | B.Com (International Finance & Accounting)",
+      photo: "/kp-mohammed-rifadh.jpg",
+      department: "School of International Financial Reporting",
+      mode: "On-Campus Financial Systems Lab",
+      certification: "Diploma in International Financial Reporting (IFRS)",
+      outcomes: "IFRS Specialist, Financial Analyst, Global Corporate Accountant",
     },
   };
 

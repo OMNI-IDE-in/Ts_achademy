@@ -217,6 +217,33 @@ export const DIPLOMA_COURSES = [
     ],
     topicsCovered: ["Zero-Trust Architecture", "Penetration Testing", "Threat Intelligence", "SIEM & SOC Operations", "NIST & ISO 27001 Compliance"],
     toolsCovered: ["Wireshark", "Burp Suite", "Kali Linux", "Metasploit", "Splunk SIEM", "Nmap", "OpenSSL"]
+  },
+  {
+    id: "ifrs",
+    code: "TSGA·IFRS",
+    title: "Diploma in International Financial Reporting (IFRS)",
+    duration: "12 Weeks (3 Months)",
+    blurb: "Master the world’s most widely adopted financial reporting standards through practical case studies, real company financial statements, and hands-on applications. Develop the skills to prepare, analyze, and interpret IFRS-compliant financial statements for global business environments.",
+    whatsappMessage: "Hello TS Global Academy, I am inquiring about the Diploma in International Financial Reporting (IFRS) (TSGA·IFRS).",
+    // PLACEHOLDER: Course fee amount (currently "To be confirmed")
+    fee: "To be confirmed",
+    eligibility: "B.Com / BBA / M.Com Students, MBA Students, ACCA Aspirants, CA/CMA Foundation Students, Finance Professionals, Accountants & Auditors, Business Owners. No prior IFRS experience required.",
+    levels: [
+      {
+        level: "Level 1: IFRS Foundations",
+        topics: ["Introduction to Financial Reporting", "IFRS Conceptual Framework", "IAS 1 – Presentation of Financial Statements", "IAS 8 – Accounting Policies, Estimates & Errors", "IAS 10 – Events After the Reporting Period"]
+      },
+      {
+        level: "Level 2: Recognition & Measurement",
+        topics: ["IAS 2 – Inventories", "IAS 16 – Property, Plant & Equipment", "IAS 38 – Intangible Assets", "IAS 36 – Impairment of Assets", "IAS 37 – Provisions & Contingent Liabilities", "IAS 21 – Foreign Exchange", "IAS 7 – Statement of Cash Flows"]
+      },
+      {
+        level: "Level 3: Advanced IFRS & Application",
+        topics: ["IFRS 15 – Revenue Recognition", "IFRS 16 – Leases", "IFRS 9 – Financial Instruments (Fundamentals)", "Introduction to Group Accounting", "Reading Real Annual Reports", "Financial Statement Analysis", "IFRS Case Studies & Capstone Project"]
+      }
+    ],
+    topicsCovered: ["IFRS Conceptual Framework", "IAS & IFRS Standards", "Financial Statement Preparation", "Revenue Recognition", "Lease Accounting", "Asset Accounting", "Inventory Accounting", "Cash Flow Statements", "Financial Statement Analysis", "Annual Report Interpretation", "Professional Ethics in Financial Reporting"],
+    toolsCovered: ["Microsoft Excel", "Microsoft PowerPoint", "IFRS Digital Standards", "Annual Reports", "AI Research Tools (ChatGPT, Copilot)", "Financial Ratio Templates"]
   }
 ];
 
