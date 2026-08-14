@@ -98,7 +98,7 @@ export default function FacultySection() {
                   src={faculty.photo}
                   alt={faculty.name + " - " + faculty.title}
                   title={faculty.name + " - TS Global Academy"}
-                  className="w-full h-full object-cover object-top filter grayscale-[20%] hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover object-center filter grayscale-[20%] hover:grayscale-0 transition-all duration-500"
                 />
               </div>
 
