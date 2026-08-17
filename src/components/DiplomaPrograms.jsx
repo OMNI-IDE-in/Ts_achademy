@@ -172,9 +172,6 @@ export default function DiplomaPrograms({ onOpenApplyModal }) {
                         <p className="font-sans text-xs font-bold text-[#0F172A] leading-tight">
                           {chair.name}
                         </p>
-                        <p className="font-sans text-[10px] text-slate-500 leading-tight italic">
-                          {chair.title.split('—')[0]}
-                        </p>
                       </div>
                     </div>
 
