@@ -26,8 +26,8 @@ export default function HeroSection({ onOpenApplyModal }) {
         <div className="absolute inset-0 bg-gradient-to-b from-[#FFFFFF]/90 via-[#FAFAF8]/85 to-[#FAFAF8] pointer-events-none" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-6 pb-16 sm:pt-8 sm:pb-20 lg:pt-10 lg:pb-24">
-        <div className="max-w-4xl space-y-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-6 pb-8 sm:pt-8 sm:pb-12 lg:pt-10 lg:pb-14">
+        <div className="max-w-4xl space-y-6 sm:space-y-8">
           
           {/* Subtle Institutional Pill Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-[#D4A017]/40 bg-[#FFFFFF] shadow-sm">
@@ -65,7 +65,7 @@ export default function HeroSection({ onOpenApplyModal }) {
           </div>
 
           {/* Subtle Accreditation & Verification Notice */}
-          <div className="pt-6 flex flex-wrap items-center gap-6 text-xs text-slate-500 font-sans border-t border-slate-200/80">
+          <div className="pt-4 sm:pt-6 flex flex-wrap items-center gap-4 sm:gap-6 text-xs text-slate-500 font-sans border-t border-slate-200/80">
             <span className="flex items-center gap-1.5">
               <span className="font-semibold text-slate-700">Accredited Standards:</span> ISO 9001:2015 & Applied Engineering Frameworks
             </span>
@@ -79,8 +79,8 @@ export default function HeroSection({ onOpenApplyModal }) {
         {/* ========================================================
             TRUST SECTION: ELEGANT STATISTIC CARDS
         ======================================================== */}
-        <div id="schools" className="mt-20 sm:mt-24 pt-12 border-t border-[#E5E7EB]">
-          <div className="mb-8">
+        <div id="schools" className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-[#E5E7EB]">
+          <div className="mb-4 sm:mb-6">
             <span className="font-sans text-xs font-semibold uppercase tracking-widest text-[#B8860B] block mb-1">
               INSTITUTIONAL METRICS & REACH
             </span>

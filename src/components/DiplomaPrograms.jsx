@@ -107,7 +107,7 @@ export default function DiplomaPrograms({ onOpenApplyModal }) {
   };
 
   return (
-    <section id="programs" className="bg-[#FAFAF8] py-20 sm:py-28 border-b border-[#E5E7EB]">
+    <section id="programs" className="bg-[#FAFAF8] py-12 sm:py-20 lg:py-24 border-b border-[#E5E7EB]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
