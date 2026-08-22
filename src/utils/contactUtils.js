@@ -2,9 +2,9 @@
 // ACADEMY CONTACT PLACEHOLDERS & UTILITIES
 // ==========================================
 
-// WhatsApp number (default: 918884167163)
-export const WHATSAPP_NUMBER = "918884167163";
-export const WHATSAPP_DISPLAY = "+91 88841 67163";
+// WhatsApp number (official: 919844886857)
+export const WHATSAPP_NUMBER = "919844886857";
+export const WHATSAPP_DISPLAY = "+91 98448 86857";
 
 // Admissions email (default: admissions@tsglobalacademy.in)
 export const ADMISSIONS_EMAIL = "admissions@tsglobalacademy.in";

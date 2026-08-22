@@ -89,21 +89,21 @@ export default function HeroSection({ onOpenApplyModal }) {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-6">
             {trustStats.map((stat, idx) => (
               <div
                 key={idx}
-                className="bg-white border border-[#E5E7EB] p-7 rounded-lg shadow-sm hover:shadow-md hover:border-[#B8860B]/60 transition-all flex flex-col justify-between space-y-3"
+                className="bg-white border border-[#E5E7EB] p-3.5 sm:p-7 rounded-lg shadow-sm hover:shadow-md hover:border-[#B8860B]/60 transition-all flex flex-col justify-between space-y-1.5 sm:space-y-3"
               >
-                <div className="flex items-baseline justify-between border-b border-slate-100 pb-3">
-                  <span className="font-heading text-4xl sm:text-5xl font-bold text-[#0F172A]">
+                <div className="flex flex-col sm:flex-row sm:items-baseline justify-between border-b border-slate-100 pb-2 sm:pb-3 gap-1">
+                  <span className="font-heading text-2xl sm:text-4xl lg:text-5xl font-bold text-[#0F172A] tracking-tight">
                     {stat.value}
                   </span>
-                  <span className="font-sans text-xs font-semibold text-[#B8860B] uppercase tracking-wider">
+                  <span className="font-sans text-[10px] sm:text-xs font-bold text-[#B8860B] uppercase tracking-wider">
                     {stat.label}
                   </span>
                 </div>
-                <p className="font-sans text-sm text-slate-600 font-medium">
+                <p className="font-sans text-[11px] sm:text-sm text-slate-600 font-medium leading-snug">
                   {stat.subtitle}
                 </p>
               </div>

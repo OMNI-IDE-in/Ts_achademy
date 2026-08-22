@@ -67,21 +67,21 @@ export default function PlacementSection() {
         </div>
 
         {/* 3 Editorial Placement Statistics Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5 sm:gap-8 mb-10 sm:mb-16">
           {placementStats.map((stat, idx) => (
             <div
               key={idx}
-              className="bg-[#FAFAF8] border border-[#E5E7EB] p-8 rounded-lg shadow-sm flex flex-col justify-between space-y-4"
+              className="bg-[#FAFAF8] border border-[#E5E7EB] p-4 sm:p-8 rounded-lg shadow-sm flex flex-col justify-between space-y-2 sm:space-y-4"
             >
-              <div className="border-b border-slate-200/80 pb-4">
-                <span className="font-heading text-4xl sm:text-5xl font-bold text-[#0F172A]">
+              <div className="border-b border-slate-200/80 pb-2 sm:pb-4 flex flex-row sm:flex-col items-baseline sm:items-start justify-between sm:justify-start gap-2">
+                <span className="font-heading text-2xl sm:text-4xl lg:text-5xl font-bold text-[#0F172A] tracking-tight">
                   {stat.value}
                 </span>
-                <span className="font-sans text-xs font-semibold text-[#B8860B] uppercase tracking-wider block mt-2">
+                <span className="font-sans text-[11px] sm:text-xs font-semibold text-[#B8860B] uppercase tracking-wider block">
                   {stat.label}
                 </span>
               </div>
-              <p className="font-sans text-sm text-slate-600 font-medium">
+              <p className="font-sans text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
                 {stat.subtitle}
               </p>
             </div>

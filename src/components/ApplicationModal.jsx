@@ -18,14 +18,15 @@ export default function ApplicationModal({ isOpen, onClose, initialCourseId = 'a
   if (!isOpen) return null;
 
   const courses = [
-    { id: 'aiml', name: 'Diploma in AI & Machine Learning', chair: 'Mohammed Nihan — Director & Executive Director, Artificial Intelligence (Founder & CEO of Omni IDE Software Company)' },
-    { id: 'peng', name: 'Diploma in Prompt Engineering', chair: 'Mohammed Nihan — Director & Executive Director, Artificial Intelligence (Founder & CEO of Omni IDE Software Company)' },
-    { id: 'csec', name: 'Diploma in Cyber Security Architecture', chair: 'Chairman Abdulrahman — Chair of Enterprise Cybersecurity' },
-    { id: 'gst', name: 'Diploma in GST & Taxation', chair: 'Dr. Salman Raza — CEO, TS Global Academy (Statutory Compliance)' },
-    { id: 'arch', name: 'Diploma in Architecture', chair: 'Director Ruman — Chair of Architectural Engineering & BIM' },
-    { id: 'robo', name: 'Diploma in Robotics', chair: 'Director Siyad — Chair of Autonomous Robotics & Mechatronics' },
-    { id: 'dgmk', name: 'Diploma in Digital Marketing', chair: 'KP Mohammed Rifadh — Chair of Digital Growth & Media' },
-    { id: 'dsci', name: 'Diploma in Data Science', chair: 'KP Mohammed Rifadh — Chair of Data Systems & Analytics' },
+    { id: 'aiml', name: 'Diploma in AI & Machine Learning', chair: 'Mohammed Nihan (AI Director)' },
+    { id: 'peng', name: 'Diploma in Prompt Engineering', chair: 'Mohammed Nihan (AI Director)' },
+    { id: 'csec', name: 'Diploma in Cyber Security Architecture', chair: 'Abdul Rahman (Chairman)' },
+    { id: 'gst', name: 'Diploma in GST & Taxation', chair: 'Dr. Salman Raza (Founder & CEO)' },
+    { id: 'arch', name: 'Diploma in Architecture', chair: 'Mohammed Ruman Ali (Research Director)' },
+    { id: 'robo', name: 'Diploma in Robotics', chair: 'Siyadh (Courses Coordinator)' },
+    { id: 'dgmk', name: 'Diploma in Digital Marketing', chair: 'KP Mohammed Rifadh (Academic Director)' },
+    { id: 'dsci', name: 'Diploma in Data Science', chair: 'KP Mohammed Rifadh (Academic Director)' },
+    { id: 'ifrs', name: 'Diploma in International Financial Reporting (IFRS)', chair: 'KP Mohammed Rifadh (Academic Director)' },
   ];
 
   const currentCourseObj = courses.find((c) => c.id === selectedCourse) || courses[0];
@@ -73,7 +74,7 @@ export default function ApplicationModal({ isOpen, onClose, initialCourseId = 'a
     const text = encodeURIComponent(
       `Hello TS Global Academy Admissions Desk, I am inquiring about the ${currentCourseObj.name}.\n\n*Applicant Details:*\nName: ${fullName}\nEmail: ${email}\nPhone: ${phone}\n\nI would like to know more about the admission process.`
     );
-    window.open(`https://wa.me/918884167163?text=${text}`, '_blank');
+    window.open(`https://wa.me/919844886857?text=${text}`, '_blank');
   };
 
   return (

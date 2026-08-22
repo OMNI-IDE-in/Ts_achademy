@@ -3,59 +3,68 @@ import React from 'react';
 export default function FacultySection() {
   const facultyMembers = [
     {
+      name: "Abdul Rahman",
+      title: "Chairman, TS Global Academy",
+      company: "Chair of Enterprise Governance & Cybersecurity",
+      credentials: "Chairman of the Board, TS Global Academy · Enterprise Cyber Systems Governance",
+      photo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80",
+      research: "Zero-Trust Architecture, National Security Compliance, SIEM Operations",
+      publications: "Strategic Visionary for International Diploma Accreditation & Governance",
+    },
+    {
+      name: "Dr. Salman Raza",
+      title: "Founder & CEO, TS Global Academy",
+      company: "Founder & Chief Executive Officer, TS Global Academy",
+      credentials: "Founder & Chief Executive Officer, TS Global Academy · Doctorate in Fiscal Policy",
+      photo: "/dr-salman-raza.jpg",
+      research: "Statutory Tax Automation, GST Framework Harmonization & Institutional Growth",
+      publications: "Executive Leader of TS Global Academy Corporate & Academic Strategy",
+    },
+    {
       name: "Mohammed Nihan",
-      title: "Director & Executive Director, Artificial Intelligence",
+      title: "AI Director, TS Global Academy",
       company: "Founder & CEO of Omni IDE Software Company",
       companyLink: "https://omniide.com/",
-      credentials: "Founder & CEO, Omni IDE Software Company · Lead AI Architect & Executive Director",
+      credentials: "AI Director, TS Global Academy · Founder & CEO, Omni IDE Software Company · Lead AI Architect",
       photo: "/mohammed-nihan-founder-omni-ide-ts-global-academy-executive-director.jpeg",
       research: "Autonomous AI Systems, LLM Orchestration, Enterprise Developer Platforms",
       publications: "Architect of Omni IDE Core Engine and TS Global Academy Applied AI Curriculum",
     },
     {
-      name: "Abdulrahman",
-      title: "Chairman, TS Global Academy",
-      company: "Chair of Enterprise Cybersecurity",
-      credentials: "Chairman of the Board · Enterprise Cyber Security Frameworks",
-      photo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80",
-      research: "Zero-Trust Architecture, National Security Compliance, SIEM Operations",
-      publications: "Strategic Visionary for International Diploma Accreditation",
-    },
-    {
-      name: "Dr. Salman Raza",
-      title: "CEO, TS Global Academy",
-      company: "Chair of Statutory Tax Compliance",
-      credentials: "Chief Executive Officer · Doctorate in Fiscal Policy",
-      photo: "/dr-salman-raza.jpg",
-      research: "Statutory Audit Automation, GST Framework Harmonization",
-      publications: "Executive Leader of TS Global Academy Corporate & Financial Strategy",
-    },
-    {
-      name: "MOHAMMED RUMAN ALI",
-      title: "Architectural Visualizer (Real Estate)",
-      company: "Real Estate Visualization & 3D Assets",
-      credentials: "Over 10 years of hands-on experience building 3D visual assets for top developers like Prestige, Brigade, and Embassy. Training is based on actual commercial project pipelines and production-floor workflows.",
+      name: "Mohammed Ruman Ali",
+      title: "Research Director, TS Global Academy",
+      company: "Research Director, TS Global Academy · Architectural Visualizer",
+      credentials: "Research Director, TS Global Academy · Over 10 years of hands-on experience building 3D visual assets for top developers like Prestige, Brigade, and Embassy. Training based on actual commercial project pipelines.",
       photo: "/mohammed-ruman-ali.jpg",
-      research: "Direct knowledge of what real estate clients expect, how to manage project constraints, and how to create photo-realistic renders that sell.",
-      publications: "Guidance on how to build a production-grade portfolio that gets noticed by hiring managers and high-paying clients.",
-    },
-    {
-      name: "Director Siyad",
-      title: "Director, TS Global Academy",
-      company: "Chair of Autonomous Robotics & Mechatronics",
-      credentials: "Director of Institute · Applied Robotics Engineer",
-      photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80",
-      research: "Dynamic Kinematics, ROS2 Automation, Industrial Sensor Fusion",
-      publications: "Director of Technology Transfer and Hardware Incubation",
+      research: "3D Architectural Visualization Technologies, Computational Real Estate Modeling & Asset Pipelines",
+      publications: "Guidance on building production-grade research portfolios that excel in global enterprise environments.",
     },
     {
       name: "KP Mohammed Rifadh",
-      title: "Director, TS Global Academy",
-      company: "Deloitte USI — Exposure to audit engagements, financial reporting, and professional accounting practices.",
-      credentials: "ACCA | B.Com (International Finance & Accounting) · ACCA Affiliate with a strong foundation in International Financial Reporting Standards (IFRS), financial analysis, and global accounting practices. Passionate about simplifying complex financial concepts through practical, industry-focused learning that prepares students for today’s evolving finance profession.",
+      title: "Academic Director, TS Global Academy",
+      company: "Academic Director, TS Global Academy · Deloitte USI Alumnus",
+      credentials: "Academic Director, TS Global Academy · ACCA | B.Com (International Finance & Accounting) · ACCA Affiliate with a strong foundation in International Financial Reporting Standards (IFRS), financial analysis, and global accounting practices.",
       photo: "/kp-mohammed-rifadh.jpg",
-      research: "International Financial Reporting (IFRS) • Financial Statement Analysis • Corporate Finance • Accounting Standards • Professional Development",
-      publications: "Committed to developing globally relevant finance professionals through practical education, real-world case studies, and internationally recognized accounting principles.",
+      research: "International Financial Reporting (IFRS) • Financial Statement Analysis • Corporate Finance • Pedagogical Systems",
+      publications: "Committed to developing globally relevant professionals through practical education and real-world case studies.",
+    },
+    {
+      name: "Sarfaraz",
+      title: "Strategic & Management Director, TS Global Academy",
+      company: "Director of Strategic & Institutional Management, TS Global Academy",
+      credentials: "Strategic & Management Director, TS Global Academy · Enterprise Program Operations & Institutional Scaling",
+      photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80",
+      research: "Institutional Strategy, Operations Management & Academic Growth Alignment",
+      publications: "Director of Operational Excellence and Strategic Academic Partnerships",
+    },
+    {
+      name: "Siyadh",
+      title: "Courses Coordinator, TS Global Academy",
+      company: "Courses Coordinator, TS Global Academy · Mechatronics & Systems",
+      credentials: "Courses Coordinator, TS Global Academy · Applied Robotics & Program Operations",
+      photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80",
+      research: "Dynamic Kinematics, Laboratory Scheduling & Student Course Logistics",
+      publications: "Coordinator of Curriculum Delivery and Laboratory Operations",
     },
   ];
 
@@ -89,7 +98,7 @@ export default function FacultySection() {
                   src={faculty.photo}
                   alt={faculty.name + " - " + faculty.title}
                   title={faculty.name + " - TS Global Academy"}
-                  className={`w-full h-full object-cover filter grayscale-[20%] hover:grayscale-0 transition-all duration-500 ${faculty.name === "MOHAMMED RUMAN ALI" ? "object-center" : "object-top"}`}
+                  className={`w-full h-full object-cover filter grayscale-[20%] hover:grayscale-0 transition-all duration-500 ${faculty.name.toLowerCase().includes("ruman") ? "object-center" : "object-top"}`}
                 />
               </div>
 

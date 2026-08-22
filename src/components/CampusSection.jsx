@@ -26,8 +26,8 @@ export default function CampusSection() {
     {
       category: "Smart Classrooms",
       title: "Executive Amphitheaters & Interactive Studios",
-      description: "Ergonomically tiered lecture halls with multi-angle acoustic engineering and hybrid broadcast capabilities for global seminars.",
-      image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80",
+      description: "Ergonomically tiered lecture halls with high-resolution interactive displays, multi-angle acoustic engineering, and hybrid broadcast capabilities for global seminars.",
+      image: "/smart-classroom.jpg",
       featured: false,
     },
     {
@@ -65,26 +65,26 @@ export default function CampusSection() {
               key={idx}
               className="bg-white border border-[#E5E7EB] rounded-lg shadow-sm overflow-hidden"
             >
-              <div className="h-96 sm:h-[480px] w-full overflow-hidden relative">
+              <div className="h-56 sm:h-80 md:h-[450px] w-full overflow-hidden relative">
                 <img
                   src={facility.image}
                   alt={facility.title}
                   className="w-full h-full object-cover filter grayscale-[10%]"
                 />
-                <div className="absolute top-6 left-6">
-                  <span className="font-sans text-xs font-bold uppercase tracking-widest bg-[#0F172A] text-white px-4 py-1.5 rounded shadow">
+                <div className="absolute top-4 left-4 sm:top-6 sm:left-6">
+                  <span className="font-sans text-xs font-bold uppercase tracking-widest bg-[#0F172A] text-white px-3 sm:px-4 py-1 sm:py-1.5 rounded shadow">
                     {facility.category}
                   </span>
                 </div>
               </div>
-              <div className="p-8 sm:p-10 space-y-3">
+              <div className="p-6 sm:p-10 space-y-3">
                 <span className="font-sans text-xs font-semibold uppercase tracking-wider text-[#B8860B] block">
                   Primary Applied Engineering Facility
                 </span>
                 <h3 className="font-heading text-2xl sm:text-3xl font-bold text-[#0F172A]">
                   {facility.title}
                 </h3>
-                <p className="font-sans text-base text-slate-700 leading-relaxed max-w-3xl">
+                <p className="font-sans text-sm sm:text-base text-slate-700 leading-relaxed max-w-3xl">
                   {facility.description}
                 </p>
               </div>
@@ -92,30 +92,30 @@ export default function CampusSection() {
           ))}
 
           {/* 2x2 Grid of Library, Innovation Center, Smart Classrooms, Student Spaces */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             {campusFacilities.filter(f => !f.featured).map((facility, idx) => (
               <div
                 key={idx}
                 className="bg-white border border-[#E5E7EB] rounded-lg shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden"
               >
-                <div className="h-64 sm:h-72 w-full overflow-hidden relative">
+                <div className="h-48 sm:h-64 sm:h-72 w-full overflow-hidden relative">
                   <img
                     src={facility.image}
                     alt={facility.title}
                     className="w-full h-full object-cover filter grayscale-[10%]"
                   />
-                  <div className="absolute top-4 left-4">
-                    <span className="font-sans text-xs font-bold uppercase tracking-wider bg-[#0F172A] text-white px-3 py-1 rounded shadow">
+                  <div className="absolute top-3 left-3 sm:top-4 sm:left-4">
+                    <span className="font-sans text-[11px] sm:text-xs font-bold uppercase tracking-wider bg-[#0F172A] text-white px-2.5 sm:px-3 py-1 rounded shadow">
                       {facility.category}
                     </span>
                   </div>
                 </div>
-                <div className="p-7 space-y-2 flex-1 flex flex-col justify-between">
+                <div className="p-5 sm:p-7 space-y-2 flex-1 flex flex-col justify-between">
                   <div className="space-y-2">
-                    <h3 className="font-heading text-xl font-bold text-[#0F172A]">
+                    <h3 className="font-heading text-lg sm:text-xl font-bold text-[#0F172A]">
                       {facility.title}
                     </h3>
-                    <p className="font-sans text-sm text-slate-600 leading-relaxed">
+                    <p className="font-sans text-xs sm:text-sm text-slate-600 leading-relaxed">
                       {facility.description}
                     </p>
                   </div>

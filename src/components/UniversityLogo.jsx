@@ -27,32 +27,32 @@ export default function UniversityLogo({
   // Typography sizing
   const wordmarkSizes = {
     sm: {
-      title: 'text-sm sm:text-base',
-      sub: 'text-[10px]',
+      title: 'text-sm sm:text-base font-extrabold',
+      sub: 'text-[10px] font-semibold',
     },
     md: {
-      title: 'text-base sm:text-lg',
-      sub: 'text-[10px] sm:text-[11px]',
+      title: 'text-[15px] sm:text-lg md:text-xl font-extrabold',
+      sub: 'text-[10px] sm:text-xs font-semibold',
     },
     lg: {
-      title: 'text-xl sm:text-2xl',
-      sub: 'text-xs sm:text-sm',
+      title: 'text-xl sm:text-2xl font-extrabold',
+      sub: 'text-xs sm:text-sm font-semibold',
     },
     xl: {
-      title: 'text-2xl sm:text-3xl',
-      sub: 'text-sm',
+      title: 'text-2xl sm:text-3xl font-extrabold',
+      sub: 'text-sm font-semibold',
     },
   };
 
   const currentImageSize = imageSizes[size] || imageSizes.md;
   const currentWordmark = wordmarkSizes[size] || wordmarkSizes.md;
 
-  // Colors based on variant (light theme default: navy text)
-  const titleColor = variant === 'dark' ? 'text-white' : 'text-[#0F172A]';
-  const subColor = variant === 'dark' ? 'text-slate-300' : 'text-slate-600';
+  // Colors based on variant (light theme default: solid bold navy/black text)
+  const titleColor = variant === 'dark' ? 'text-white' : 'text-[#090E1A]';
+  const subColor = variant === 'dark' ? 'text-slate-200' : 'text-slate-700';
 
   return (
-    <div className={`inline-flex items-center gap-3 group select-none ${className}`}>
+    <div className={`inline-flex items-center gap-2.5 sm:gap-3 group select-none ${className}`}>
       {/* ========================================================
           OFFICIAL UNIVERSITY CREST SEAL (ts-logo.png)
       ======================================================== */}
@@ -69,14 +69,14 @@ export default function UniversityLogo({
           INSTITUTIONAL WORDMARK & MOTTO
       ======================================================== */}
       {showWordmark && (
-        <div className="flex flex-col justify-center leading-tight">
+        <div className="flex flex-col justify-center leading-tight min-w-0">
           <span
-            className={`font-heading font-bold tracking-tight ${currentWordmark.title} ${titleColor} group-hover:text-[#1E3A8A] transition-colors`}
+            className={`font-heading font-extrabold tracking-tight ${currentWordmark.title} ${titleColor} group-hover:text-[#1E3A8A] transition-colors drop-shadow-[0_0.5px_0.5px_rgba(0,0,0,0.1)] whitespace-nowrap`}
           >
             TS GLOBAL ACADEMY
           </span>
           <span
-            className={`font-sans font-medium tracking-wide ${currentWordmark.sub} ${subColor} block mt-0.5`}
+            className={`font-sans font-semibold tracking-wider uppercase ${currentWordmark.sub} ${subColor} block mt-0.5 whitespace-nowrap`}
           >
             Institute of Applied Sciences
           </span>
